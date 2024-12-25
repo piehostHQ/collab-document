@@ -1,28 +1,27 @@
-# Collabrative Document
-This template should help get you started developing with Vue 3 in Vite.
+# Collaborative Document
+A real-time collaborative document editor built with Vue.js and PieSocket. Users can edit the document together and see changes instantly.
 
-## Recommended IDE Setup
+### Features
+Real-time updates for collaborative editing.
+Saves text locally in the browser.
+Simple and responsive design.
+How to Run
+Clone the repository:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
+git clone https://github.com/piehostHQ/collab-document.git
+cd collaborative-document
+```
+Install dependencies:
+```bash
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
+Update the PieSocket API key and cluster ID in the code with your credentials.
+Start the app:
+```bash
 npm run dev
+Open http://localhost:3000 in your browser.
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Usage
+Start typing to edit the document.
+Click "Update Document" to save and sync changes with others.
